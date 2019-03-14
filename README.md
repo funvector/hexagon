@@ -1,1 +1,1 @@
-[https://funvector.github.io/hexagone/index.html](https://funvector.github.io/hexagone/index.html)
+[https://funvector.github.io/hexagon/](https://funvector.github.io/hexagon/)

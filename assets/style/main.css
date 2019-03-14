@@ -489,6 +489,13 @@ body{
   }
 }
 
+@media only screen and (max-width: 700px){
+  .hexal-section-items{
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 500px){
   .get_in_touch-wrap-form-lfex {
     display: flex;

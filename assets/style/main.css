@@ -373,6 +373,7 @@ body{
 
  .get_in_touch-wrap-form-lfex{
   display: flex;
+  width: 100%;
  }
 
  .get_in_touch-form input{
@@ -476,4 +477,41 @@ body{
 
 .footer:hover p{
   color: #2eb398;
+}
+
+@media only screen and (max-width: 800px){
+  .get_in_touch-form textarea{
+    width: 100%;
+  }
+
+  .get_in_touch-info-text{
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .get_in_touch-wrap-form-lfex {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .about_me-section-container{
+    flex-flow: row wrap;
+  }
+
+  .about_me-section-container-hex{
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .flex_main-list{
+    flex-flow: column wrap;
+  }
+
+  li.nav_down_arrow-center{
+    display: none;
+  }
 }

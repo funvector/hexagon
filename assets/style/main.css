@@ -400,6 +400,10 @@ body{
   padding-left: 0;
  }
 
+ .get_in_touch-form input[type="submit"]:hover{
+  color: red;
+ }
+
  .get_in_touch-form-submit-flex{
   display: flex;
   justify-content: flex-end;
